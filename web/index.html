@@ -7,24 +7,20 @@
 </head>
 <body>
     <h1>Suscribete a nuestro Sitio Web</h1>
+    
     <p>Introduce tu nombre y tu email para suscribirte a 
         nuestro sitio web y recibir notificaciones.</p>
-    <form action="emailList" method="post">
-        
-        <input type="hidden" name="action" value="add">  
-        
+    
+    <form action="emailList" method="post">        
+        <input type="hidden" name="action" value="add">          
         <label class="pad_top">Nombre:</label>        
-        <input type="text" name="firstName" required><br>
-        
+        <input type="text" name="firstName" required><br>        
         <label class="pad_top">Apellidos:</label>        
-        <input type="text" name="lastName" required><br>
-        
+        <input type="text" name="lastName" required><br>        
         <label class="pad_top">Email:</label>        
         <input type="email" name="email" required><br>        
-        
         <label>&nbsp;</label>        
-        <input type="submit" value="SUSCRIBIR" class="margin_left">
-        
+        <input type="submit" value="SUSCRIBIR" class="margin_left">       
     </form>
 </body>
 </html>
